@@ -1,4 +1,11 @@
 {
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.14",
     "@tailwindcss/vite": "^4.1.11",
@@ -8,5 +15,10 @@
     "react-router-dom": "^7.7.1",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
